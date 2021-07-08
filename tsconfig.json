@@ -1,0 +1,26 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node-modules"
+  ],
+  "compilerOptions": {
+
+    "target": "es2018",                  
+    "module": "commonjs",                
+    "declaration": true,                 
+    "declarationMap": true,              
+    "sourceMap": true,                    
+    "outDir": "lib",                      
+    "rootDir": "src",                     
+    "removeComments": true,               
+    "baseUrl": "./",                      
+    "incremental": true,
+    "paths": {},                          
+    "allowSyntheticDefaultImports": true,  
+    "esModuleInterop": true,               
+    "experimentalDecorators": true,        
+  },
+}
